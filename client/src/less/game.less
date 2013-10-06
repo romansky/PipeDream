@@ -1,0 +1,66 @@
+@import 'bootstrap.less';
+
+
+
+
+#controls {
+	text-align : center;
+	.btn {
+		padding : 2em;
+		border : 1px solid lightGray;
+	}
+	.btn:hover {
+		border: 1px solid black;
+	}
+}
+
+
+.board-table {
+	.table-bordered;
+	width: 100%;
+	tr {
+		td {
+			padding: 7.5%;
+
+			&.empty {
+				background-color : gray;
+			}
+			&.filled {
+				background-color : blue;
+			}
+			&.active {
+				background-color : lightBlue;
+			}
+			&.inactive {
+				background-color : lightGray;
+			}
+		}
+	}
+}
+
+.container {
+	position : relative;
+}
+
+.overlay {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	width: 100%;
+	height: 100%;
+	
+	.curtain {
+		width: 100%;
+		height: 100%;
+		background-color: orange;
+		opacity: 0.5;
+	}
+
+	.start {
+		position: absolute;
+		left: 40%;
+		top: 30%;
+		padding: 10%;
+	}
+}
+

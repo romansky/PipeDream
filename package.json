@@ -1,0 +1,17 @@
+{
+  "name": "pipe-dream",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "less": "*",
+    "node-logr": "*",
+    "browserify": "~2.31.0",
+    "browserify-shim": "~2.0.8",
+    "coffeeify": "~0.5.1",
+    "serialport" : "*"
+  },
+  "scripts": {
+    "run": "cake run"
+  }
+}
